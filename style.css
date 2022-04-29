@@ -1,0 +1,151 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Work Sans', sans-serif;
+  font-size: 1rem;
+  
+}
+
+html{
+    font-size: 100%;
+}
+
+header{
+  background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,.5)),url(william-bout-7cdFZmLlWOM-unsplash.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;    
+}
+
+.navbar{
+  color: #fff;
+  text-align: center;
+ 
+}
+
+.logo{
+  font-weight: 700;
+  font-size: 1.5rem;
+  padding-top: 5rem;
+}
+
+.heading h1{
+  font-weight: 300;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  margin-top: 3rem ;
+}
+
+.countdown
+{
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+  flex-wrap: wrap;
+}
+.countdown div{
+
+  position: relative;
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  background: #00000036;
+  color: #fff;
+  margin:0 1rem;
+  font-size: 3em;
+  border-bottom: 4px solid rgba(250, 70, 89, 0.5);;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.lable-txt {
+  position: absolute;
+  top: 2rem;
+  font-size: 1rem;
+  margin-inline: auto;
+  width: fit-content;
+  color: #ffffffb3;
+}
+
+.notifications{
+    margin-top: 5rem;
+    text-align: center;
+}
+
+.notifications p{
+    text-align: center;
+    color:#fff;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 1.1rem;
+}
+
+.btn{
+    margin-top: 3rem;
+}
+
+input{
+    font-size: 16px;
+    background: white;
+    border: transparent;
+    margin-right: -5px;
+    width: 25rem;
+    padding: 14px 20px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    outline: none;
+}
+
+button{
+    padding: 15px 20px;
+    background: #FA4659;
+    color: #fff;
+    border: none;
+    font-size: 14px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+
+@media only screen and (max-width: 1200px) {
+    html{
+        font-size: 100%;
+    }
+  }
+@media only screen and (max-width: 800px) {
+    html{
+        font-size: 90%;
+    }
+
+   
+  }
+@media only screen and (max-width: 450px) {
+    html{
+        font-size: 60%;
+    }
+
+    .btn{
+     
+        margin: 50px 5px;
+    }
+
+    input{
+        margin-right: 0;
+        width:100%;
+        border-radius: 0;
+    }
+
+    button{
+       
+        border-radius: 0;
+         width: 100%;
+    }
+  }
